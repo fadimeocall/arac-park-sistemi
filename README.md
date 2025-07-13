@@ -9,35 +9,39 @@ Proje, **Arduino ile elektronik temellerini öğrenmek isteyen herkes için uygu
 
 ---
 
-## ## Sistem Gereksinimleri
-Projeyi çalıştırmak için aşağıdaki donanım ve yazılımlar gereklidir:
+## ## 📋 Sistem Gereksinimleri (GÜNCEL)
+🖥️ Yazılım:
+Arduino IDE (en son sürüm)
 
-Donanım:
-Arduino Uno (veya uyumlu bir kart)
+Arduino sürücüleri (genellikle IDE kurulunca otomatik gelir)
 
-HC-SR04 Ultrasonik Mesafe Sensörü
-Pasif Buzzer
-Breadboard
-Jumper Kablolar
-USB Kablosu Arduino'yu bilgisayara bağlamak için
+Bilgisayarınızda USB portu olmalı
 
-## ## Yazılım:
-Arduino IDE
-Gerekli kart ve port ayarlarının yapılmış olması
+⚙️ Kurulum Adımları:
+Arduino IDE’yi kurduktan sonra Arduino UNO kartınızı USB ile bilgisayara bağlayın.
+
+Arduino IDE içinde:
+
+Araçlar > Kart > Arduino Uno seçin
+
+Araçlar > Port > COM3 ya da COM4 gibi Arduino'nun bağlı olduğu portu seçin (kart takıldığında otomatik görünür)
+
+Kodu yapıştırın, ardından Yükle (Upload) butonuna tıklayın.
+
+Eğer “Seri Port” hatası alırsanız kabloyu değiştirin ya da COM ayarını kontrol edin.
+
+🔌 Not: USB kablosu sadece güç vermekle kalmaz, veri aktarımı da sağlar. Mutlaka data kablosu (hem güç hem veri taşıyan) kullanılmalıdır.
 
 
+## 📂 Proje Yapısı
 
-## ## 📂 Proje Yapısı
-plaintext
-Kopyala
-Düzenle
 PAEK-Park-Sensoru/
-│
-├── README.md              <- Proje açıklamaları (bu dosya)
-├── paek_sensor.ino        <- Arduino kodları
-├── images/
-│   └── devre_semasi.png   <- Bağlantı şeması görseli
-📌 Görsel dosyasını images/ klasörüne eklemen yeterli, ardından aşağıdaki gibi README içinde kullanabilirsin:
+├── README.md                   <- Proje açıklamaları (bu dosya)
+├── (arac-park-sistemi.ino)     <- Arduino kodları
+└── images/
+    └── arduino_uno_sensör.png  <- Bağlantı şeması görseli
+
+
 
 
 ## ## 🧠 Geliştirici
