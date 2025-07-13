@@ -76,7 +76,7 @@ int getDistance() {
 }
 
 
-📋 Sistem Gereksinimleri
+## ## Sistem Gereksinimleri
 Projeyi çalıştırmak için aşağıdaki donanım ve yazılımlar gereklidir:
 
 Donanım:
@@ -88,13 +88,13 @@ Breadboard
 Jumper Kablolar
 USB Kablosu Arduino'yu bilgisayara bağlamak için
 
-Yazılım:
+## ## Yazılım:
 Arduino IDE
 Gerekli kart ve port ayarlarının yapılmış olması
 
 
 
-📂 Proje Yapısı
+## ## 📂 Proje Yapısı
 plaintext
 Kopyala
 Düzenle
@@ -107,13 +107,13 @@ PAEK-Park-Sensoru/
 📌 Görsel dosyasını images/ klasörüne eklemen yeterli, ardından aşağıdaki gibi README içinde kullanabilirsin:
 
 
-🧠 Geliştirici
+## ## 🧠 Geliştirici
 Fadime ÖCAL
 📚 YBS Öğrencisi
 💡 Arduino & Web teknolojilerine ilgi duyuyor
 📍 Türkiye, 2025
 
-🔄 Geliştirme Önerileri
+## ##🔄 Geliştirme Önerileri
 Bu projeyi daha ileriye taşımak istersen:
 
 📺 LCD ekran ile mesafeyi sayısal olarak gösterebilirsin.
