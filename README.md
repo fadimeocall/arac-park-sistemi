@@ -1,5 +1,5 @@
 # ARDUINO ARAÇ PARK SİSTEMİ
-<img src="arduino_uno_sensör.png" width="1200px"><br>
+<img src="./content/arduino_uno_sensör.png" width="1200px"><br>
 
 ## ## 📋 Proje Tanımı
 
